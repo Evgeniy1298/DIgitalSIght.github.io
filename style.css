@@ -1,0 +1,408 @@
+.page {
+    min-width: 1100px;
+    max-width: 2560px;
+    margin: 0 auto;
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+} 
+
+.header{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+}
+
+.header__title{
+    text-align: center;
+    color: white;
+    line-height: 25px;
+    max-width: 388px;
+    font-size: 38px;
+    margin: auto;
+}
+
+.buttons{
+    background-color:gray;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    margin-right: 150px;
+    font-size: 38px;
+    margin: auto;
+    background-color: gray;
+    border: none;
+    height: 80px;
+}
+
+.button:hover {
+    background-color: black; /* Green */
+    color: white;
+}
+
+.main-page{
+    background-image: url(../../images/Digital_risks-white-paper-image_flipped-scaled.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    min-height: 890px;
+    box-sizing: border-box;
+    padding-top: 100px;
+}
+
+.main-page__title{
+    padding-top: 15%;
+    text-align: center;
+    margin: auto;
+    color: black;
+    font-size: 110px;
+    max-width: 684px;
+    line-height: 1.15;
+    font-weight: bold;
+}
+
+.main-page__subtitle{
+    text-align: center;
+    margin: auto;
+    color: black;
+    margin-top: 10px;
+    line-height: 51px;
+    font-size: 36px;
+}
+
+.main-info{
+    width: 100%;
+    height: 615px;
+    padding-top: 35px;
+}
+
+.main-info__title{
+    text-align: center;
+    font-size: 35px;
+    margin: auto;
+}
+
+.main-info__subtitle{
+    text-align: center;
+    margin: 15px auto;
+    width: 950px;
+    line-height: 1.2;
+}
+
+.main-info__text{
+    text-align: center;
+    margin: 15px auto;
+    line-height: 1.2;
+}
+
+.table {
+    display: flex;
+    margin: 0 auto 100px;
+    width: 1100px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+  
+.table__cell{
+    margin-top: 60px;
+    width: 250px;
+}
+
+.table__pic{
+    width: 140px;
+    height: 150px;
+    margin-left: 22%;
+}
+
+.table__title{
+    text-align: center;
+}
+
+.table__text{
+    text-align: center;
+}
+
+.about-test{
+    padding-top: 25px;
+    height: 335px;
+}
+
+.about-test__title{
+    text-align: center;
+    font-size: 35px;
+    margin: auto;
+}
+
+.about-test__text{
+    text-align: center;
+    margin: 15px auto;
+    line-height: 1.2;
+    width: 650px;
+}
+
+.about-test__nigger{
+    display: flex;
+    justify-content: center;
+}
+
+.about-test__button{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.video{
+    height: 560px;
+    padding-top: 10px;
+}
+
+.video__subtitle{
+    text-align: center;
+    margin: 15px auto;
+    line-height: 1.2;
+    width: 650px;
+}
+
+.video__iframes{
+    display: flex;
+    justify-content: center;
+    margin: 25px auto 25px;
+}
+
+.video__iframe{
+    width: 515px;
+    height: 316px;
+}
+
+.video__text{
+    text-align: center;
+    font-size: 35px;
+    margin: auto;
+    width: 650px;
+}
+
+.news{
+    padding-top: 25px;
+    height: 660px;
+}
+
+.news__title{
+    text-align: center;
+    font-size: 35px;
+    margin: auto;
+}
+
+.news__subtitle{
+    text-align: center;
+    margin: 15px auto;
+    line-height: 1.2;
+    width: 650px;
+}
+
+.news_table__cell{
+    width: 300px;
+    margin-right: calc(100px / 3);
+}
+
+.news_table__pic{
+    width: 300px;
+    height: 210px;
+}
+
+.news_table__text{
+    text-align: center;
+    margin: 15px auto;
+    line-height: 1.2;
+    width: 300px;
+}
+
+.news_table__buttons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.news_table__button{
+    margin-bottom: 0;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.footer{
+    background-color: black;
+    height: 80px;
+    padding-top: 25px;
+    width: 100%;
+}
+
+.footer__text{
+    color: white;
+    line-height: 25px;
+    font-size: 18px;
+    margin: auto;
+}
+
+.footer__authors{
+    color: white;
+    line-height: 25px;
+    font-size: 18px;
+    display: flex;
+    margin: auto;
+}
+
+.test{
+    padding-top: 25px;
+}
+
+.test__title{
+    text-align: center;
+    margin: auto;
+    color: black;
+    font-size: 110px;
+    max-width: 684px;
+    line-height: 1.15;
+    font-weight: bold;
+    font-size: 38px;
+}
+
+.test__text{
+	text-align: center;
+	margin: auto;
+	color: black;
+	margin-top: 10px;
+	font-size: 26px;
+	width: 600px;
+}
+
+.gay{
+    padding-top: 25px;
+}
+
+.about-test__nigger{
+    display: flex;
+    justify-content: center;
+}
+
+.about-test__button{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.contacts{
+    padding-top: 25px;
+    height: 600px;
+}
+
+@media screen and (max-width: 425px) {
+    .contacts{
+        padding-top: 75px;
+    }
+}
+
+.contacts__title{
+    text-align: center;
+    margin: auto;
+    color: black;
+    font-size: 110px;
+    max-width: 684px;
+    line-height: 1.15;
+    font-weight: bold;
+    font-size: 38px;
+}
+
+.contacts__text{
+    text-align: center;
+    margin: auto;
+    color: black;
+    margin-top: 10px;
+    font-size: 26px;
+    width: 600px;
+}
+
+.contacts__iframes{
+    display: flex;
+    justify-content: center;
+    margin: 15px auto 0;
+}
+
+.contacts__iframe{
+    width: 600px;
+    height: 316px;
+}
+
+@media screen and (max-width: 425px) {
+    .contacts__iframe{
+        width: 750px;
+        height: 1500px;
+    }
+}
+
+.feedback{
+    display: flex;
+    box-sizing: border-box;
+    color: white;
+    background-color: black;
+    padding: 25px 0 40px;
+    height: 350px;
+}
+
+@media screen and (max-width: 425px) {
+    .feedback{
+        margin-top: 109%;
+    }
+}
+
+.feedback__columns {
+    box-sizing: border-box;
+    background-color: black;
+    justify-content: space-between;
+    display: flex;
+    margin: 15px auto;
+    width: 90%;
+}
+
+.feedback__column-heading {
+    margin: 0;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.feedback__column-links{
+    margin: 20px 0 16px;
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+.feedback__column-link {
+    line-height: 30px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.feedback__social-icon{
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
